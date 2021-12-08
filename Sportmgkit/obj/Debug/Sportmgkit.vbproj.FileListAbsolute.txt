@@ -1,0 +1,33 @@
+C:\Users\User\AppData\Local\Temporary Projects\Sportmgkit\bin\Debug\Sportmgkit.exe.config
+C:\Users\User\AppData\Local\Temporary Projects\Sportmgkit\bin\Debug\Sportmgkit.exe
+C:\Users\User\AppData\Local\Temporary Projects\Sportmgkit\bin\Debug\Sportmgkit.pdb
+C:\Users\User\AppData\Local\Temporary Projects\Sportmgkit\bin\Debug\Sportmgkit.xml
+C:\Users\User\AppData\Local\Temporary Projects\Sportmgkit\obj\Debug\Sportmgkit.Form1.resources
+C:\Users\User\AppData\Local\Temporary Projects\Sportmgkit\obj\Debug\Sportmgkit.Resources.resources
+C:\Users\User\AppData\Local\Temporary Projects\Sportmgkit\obj\Debug\Sportmgkit.vbproj.GenerateResource.Cache
+C:\Users\User\AppData\Local\Temporary Projects\Sportmgkit\obj\Debug\Sportmgkit.exe
+C:\Users\User\AppData\Local\Temporary Projects\Sportmgkit\obj\Debug\Sportmgkit.xml
+C:\Users\User\AppData\Local\Temporary Projects\Sportmgkit\obj\Debug\Sportmgkit.pdb
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\bin\Debug\Sportmgkit.exe.config
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\bin\Debug\Sportmgkit.exe
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\bin\Debug\Sportmgkit.pdb
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\bin\Debug\Sportmgkit.xml
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\bin\Debug\CircularProgressBar.dll
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\bin\Debug\WinFormAnimation.dll
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\bin\Debug\CircularProgressBar.xml
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.changepass.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.FORM_USER.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.Resources.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.product.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.Sellproducts.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.Welcome.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.vbproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.exe
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.xml
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.pdb
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.vbprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.Login.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.Register.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.Customer.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.Home.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\obj\Debug\Sportmgkit.progbar.resources

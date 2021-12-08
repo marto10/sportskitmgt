@@ -1,0 +1,552 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Sportmgkit
+</name>
+</assembly>
+<members>
+<member name="T:Sportmgkit.prodVbDataSet1.ProdTblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet1.ProdTblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet1.ProdTblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet1TableAdapters.ProdTblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sportmgkit.prodVbDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Sportmgkit.prodVbDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.prodVbDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Sportmgkit.prodVbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.prodVbDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Sportmgkit.prodVbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sportmgkit.prodVbDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sportmgkit.prodVbDataSet1TableAdapters.TableAdapterManager.UpdateAll(Sportmgkit.prodVbDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Sportmgkit.dataa2DataSet.usersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sportmgkit.dataa2DataSet.usersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sportmgkit.dataa2DataSet.usersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sportmgkit.dataa2DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.dataa2DataSetTableAdapters.usersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sportmgkit.dataa2DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sportmgkit.dataa2DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.dataa2DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sportmgkit.dataa2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.dataa2DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sportmgkit.dataa2DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sportmgkit.dataa2DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sportmgkit.dataa2DataSetTableAdapters.TableAdapterManager.UpdateAll(Sportmgkit.dataa2DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sportmgkit.dataa2DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sportmgkit.dataa2DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sportmgkit.dataa2DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Sportmgkit.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sportmgkit.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sportmgkit.My.Resources.Resources.logoutpurplr">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Sportmgkit.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Sportmgkit.StockDBset.Table1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sportmgkit.StockDBset.Table1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sportmgkit.StockDBset.Table1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sportmgkit.StockDBset">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.StockDBsetTableAdapters.Table1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sportmgkit.StockDBsetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sportmgkit.StockDBset,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.StockDBsetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sportmgkit.StockDBset,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.StockDBsetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sportmgkit.StockDBset,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sportmgkit.StockDBsetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sportmgkit.StockDBsetTableAdapters.TableAdapterManager.UpdateAll(Sportmgkit.StockDBset)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sportmgkit.StockDBsetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sportmgkit.StockDBsetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sportmgkit.StockDBsetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Sportmgkit.CategoryDataSet.Product_TableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sportmgkit.CategoryDataSet.Product_TableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sportmgkit.CategoryDataSet.Product_TableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sportmgkit.CategoryDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.CategoryDataSetTableAdapters.Product_TableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sportmgkit.CategoryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sportmgkit.CategoryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.CategoryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sportmgkit.CategoryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.CategoryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sportmgkit.CategoryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sportmgkit.CategoryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sportmgkit.CategoryDataSetTableAdapters.TableAdapterManager.UpdateAll(Sportmgkit.CategoryDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sportmgkit.CategoryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sportmgkit.CategoryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sportmgkit.CategoryDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Sportmgkit.productsDataSet.itemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sportmgkit.productsDataSet.itemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sportmgkit.productsDataSet.itemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sportmgkit.productsDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.productsDataSetTableAdapters.itemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sportmgkit.productsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sportmgkit.productsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.productsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sportmgkit.productsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.productsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sportmgkit.productsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sportmgkit.productsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sportmgkit.productsDataSetTableAdapters.TableAdapterManager.UpdateAll(Sportmgkit.productsDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sportmgkit.productsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sportmgkit.productsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sportmgkit.productsDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Sportmgkit.dataa21DataSet.usersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sportmgkit.dataa21DataSet.usersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sportmgkit.dataa21DataSet.usersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sportmgkit.dataa21DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.dataa21DataSetTableAdapters.usersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sportmgkit.dataa21DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sportmgkit.dataa21DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.dataa21DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sportmgkit.dataa21DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.dataa21DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sportmgkit.dataa21DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sportmgkit.dataa21DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sportmgkit.dataa21DataSetTableAdapters.TableAdapterManager.UpdateAll(Sportmgkit.dataa21DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sportmgkit.dataa21DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sportmgkit.dataa21DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sportmgkit.dataa21DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Sportmgkit.Database1DataSet.Table1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sportmgkit.Database1DataSet.Table1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sportmgkit.Database1DataSet.Table1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sportmgkit.Database1DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.Database1DataSetTableAdapters.Table1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sportmgkit.Database1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sportmgkit.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.Database1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sportmgkit.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.Database1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sportmgkit.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sportmgkit.Database1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sportmgkit.Database1DataSetTableAdapters.TableAdapterManager.UpdateAll(Sportmgkit.Database1DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sportmgkit.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sportmgkit.Database1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sportmgkit.Database1DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Sportmgkit.dataDataSet.Table1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sportmgkit.dataDataSet.Table1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sportmgkit.dataDataSet.Table1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sportmgkit.dataDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.dataDataSetTableAdapters.Table1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sportmgkit.dataDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sportmgkit.dataDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.dataDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sportmgkit.dataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.dataDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sportmgkit.dataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sportmgkit.dataDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sportmgkit.dataDataSetTableAdapters.TableAdapterManager.UpdateAll(Sportmgkit.dataDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sportmgkit.dataDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sportmgkit.dataDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sportmgkit.dataDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Sportmgkit.Datasetdatagrid">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet.ProdTblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet.ProdTblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet.ProdTblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSetTableAdapters.ProdTblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sportmgkit.prodVbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sportmgkit.prodVbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.prodVbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sportmgkit.prodVbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.prodVbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sportmgkit.prodVbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sportmgkit.prodVbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sportmgkit.prodVbDataSetTableAdapters.TableAdapterManager.UpdateAll(Sportmgkit.prodVbDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sportmgkit.prodVbDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Sportmgkit.StockDBDataSet.stock_tblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sportmgkit.StockDBDataSet.stock_tblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sportmgkit.StockDBDataSet.stock_tblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sportmgkit.StockDBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sportmgkit.StockDBDataSetTableAdapters.stock_tblTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sportmgkit.StockDBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sportmgkit.StockDBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.StockDBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sportmgkit.StockDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sportmgkit.StockDBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sportmgkit.StockDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sportmgkit.StockDBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sportmgkit.StockDBDataSetTableAdapters.TableAdapterManager.UpdateAll(Sportmgkit.StockDBDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sportmgkit.StockDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sportmgkit.StockDBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sportmgkit.StockDBDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
