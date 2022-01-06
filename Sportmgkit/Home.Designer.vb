@@ -50,9 +50,8 @@ Partial Class Home
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1479, 157)
+        Me.Panel1.Size = New System.Drawing.Size(1014, 102)
         Me.Panel1.TabIndex = 0
         '
         'PictureBox5
@@ -60,9 +59,8 @@ Partial Class Home
         Me.PictureBox5.BackColor = System.Drawing.Color.DarkMagenta
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
         Me.PictureBox5.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(216, 157)
+        Me.PictureBox5.Size = New System.Drawing.Size(144, 102)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 63
         Me.PictureBox5.TabStop = False
@@ -73,10 +71,9 @@ Partial Class Home
         Me.Label6.BackColor = System.Drawing.Color.White
         Me.Label6.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Purple
-        Me.Label6.Location = New System.Drawing.Point(225, 112)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(150, 73)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(162, 42)
+        Me.Label6.Size = New System.Drawing.Size(113, 29)
         Me.Label6.TabIndex = 30
         Me.Label6.Text = "welcome"
         '
@@ -86,10 +83,9 @@ Partial Class Home
         Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Purple
-        Me.Label2.Location = New System.Drawing.Point(39, 386)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(26, 251)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(169, 31)
+        Me.Label2.Size = New System.Drawing.Size(114, 21)
         Me.Label2.TabIndex = 53
         Me.Label2.Text = "PRODUCTS"
         '
@@ -99,10 +95,9 @@ Partial Class Home
         Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Purple
-        Me.Label1.Location = New System.Drawing.Point(1107, 386)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(738, 251)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(190, 31)
+        Me.Label1.Size = New System.Drawing.Size(128, 21)
         Me.Label1.TabIndex = 54
         Me.Label1.Text = "CUSTOMERS"
         '
@@ -112,10 +107,9 @@ Partial Class Home
         Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Purple
-        Me.Label3.Location = New System.Drawing.Point(1132, 714)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(755, 464)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(134, 31)
+        Me.Label3.Size = New System.Drawing.Size(91, 21)
         Me.Label3.TabIndex = 55
         Me.Label3.Text = "ORDERS"
         '
@@ -125,20 +119,18 @@ Partial Class Home
         Me.Label4.BackColor = System.Drawing.Color.White
         Me.Label4.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Purple
-        Me.Label4.Location = New System.Drawing.Point(39, 714)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(26, 464)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(176, 31)
+        Me.Label4.Size = New System.Drawing.Size(119, 21)
         Me.Label4.TabIndex = 56
         Me.Label4.Text = "REGISTER "
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(45, 243)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox1.Location = New System.Drawing.Point(30, 158)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(214, 120)
+        Me.PictureBox1.Size = New System.Drawing.Size(143, 78)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 57
         Me.PictureBox1.TabStop = False
@@ -146,10 +138,9 @@ Partial Class Home
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(1098, 243)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox2.Location = New System.Drawing.Point(732, 158)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(214, 120)
+        Me.PictureBox2.Size = New System.Drawing.Size(143, 78)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 58
         Me.PictureBox2.TabStop = False
@@ -157,10 +148,9 @@ Partial Class Home
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(1098, 589)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox3.Location = New System.Drawing.Point(732, 383)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(214, 120)
+        Me.PictureBox3.Size = New System.Drawing.Size(143, 78)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 59
         Me.PictureBox3.TabStop = False
@@ -168,10 +158,9 @@ Partial Class Home
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(45, 589)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox4.Location = New System.Drawing.Point(30, 383)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(165, 120)
+        Me.PictureBox4.Size = New System.Drawing.Size(110, 78)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 60
         Me.PictureBox4.TabStop = False
@@ -182,20 +171,19 @@ Partial Class Home
         Me.Button1.BackgroundImage = Global.Sportmgkit.My.Resources.Resources.logoutpurplr
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Bold)
-        Me.Button1.Location = New System.Drawing.Point(729, 774)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button1.Location = New System.Drawing.Point(410, 509)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(177, 103)
+        Me.Button1.Size = New System.Drawing.Size(118, 67)
         Me.Button1.TabIndex = 62
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Home
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1479, 895)
+        Me.ClientSize = New System.Drawing.Size(1014, 588)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
@@ -207,7 +195,6 @@ Partial Class Home
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Home"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Homevb"

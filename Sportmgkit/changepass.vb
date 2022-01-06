@@ -28,7 +28,7 @@ Public Class changepass
             MessageBox.Show("Invalid mobile number.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Exit Sub
         End If
-        Dim con As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit\Database1.mdb;")
+        Dim con As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\database + code\Database1.mdb;")
         ' C:\Users\User\Documents\Visual Studio 2012\Projects\Sportmgkit\Sportmgkit
         If con.State = ConnectionState.Closed Then
             con.Open()

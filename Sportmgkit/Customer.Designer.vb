@@ -284,7 +284,7 @@ Partial Class Customer
         '
         Me.Button1.BackColor = System.Drawing.Color.Purple
         Me.Button1.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Bold)
-        Me.Button1.Location = New System.Drawing.Point(480, 534)
+        Me.Button1.Location = New System.Drawing.Point(427, 534)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(118, 36)
         Me.Button1.TabIndex = 69

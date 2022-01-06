@@ -15,12 +15,14 @@ Public Class product
         Con.Close()
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Addbtn.Click
+
+
         Con.Open()
-        Dim pid As Integer = Prodidtxt.Text
-        Dim pname As String = Prodnametxt.Text
-        Dim pprice As Integer = Prodpricetxt.Text
-        Dim pquantity As Integer = Prodqtytxt.Text
-        Dim pcat As String = prodcatcb.Text
+        Dim pid As Integer = TextBox1.Text
+        Dim pname As String = TextBox2.Text
+        Dim pprice As Integer = TextBox3.Text
+        Dim pquantity As Integer = TextBox4.Text
+        Dim pcat As String = ComboBox1.SelectedItem
         Dim command As New SqlCommand("Insert into Product_Table Values ('" & pid & "','" & pname & "','" & pprice & "','" & pquantity & "','" & pcat & "')", Con)
         command.ExecuteNonQuery()
         MsgBox("Product Added Successfully")
@@ -34,11 +36,11 @@ Public Class product
     End Sub
 
     Private Sub Editbtn_Click(sender As Object, e As EventArgs) Handles Editbtn.Click
-        If Prodidtxt.Text = "" Or Prodnametxt.Text = "" Or Prodpricetxt.Text = "" Or Prodqtytxt.Text = "" Or prodcatcb.Text = "" Then
+        If TextBox1.Text = "" Or TextBox2.Text = "" Or TextBox3.Text = "" Or TextBox4.Text = "" Or ComboBox1.SelectedItem = "" Then
             MsgBox("Incomplete Data")
         Else
             Con.Open()
-            Dim sql = "update Product_Table set ProductName='" & Prodnametxt.Text & "',ProductPrice='" & Prodpricetxt.Text & "',ProductQuantity='" & Prodqtytxt.Text & "',ProductCategory='" & prodcatcb.SelectedItem.ToString() & "' where Product_ID = " & Prodidtxt.Text & ""
+            Dim sql = "update Product_Table set ProductName='" & TextBox2.Text & "',ProductPrice='" & TextBox3.Text & "',ProductQuantity='" & TextBox4.Text & "',ProductCategory='" & ComboBox1.SelectedItem.ToString() & "' where Product_ID = " & TextBox1.Text & ""
             Dim cmd As New SqlCommand(sql, Con)
             cmd.ExecuteNonQuery()
             MsgBox("Product Updated Successfully")
@@ -49,12 +51,12 @@ Public Class product
     End Sub
 
     Private Sub Deletebtn_Click(sender As Object, e As EventArgs) Handles Deletebtn.Click
-        If Prodidtxt.Text = "" Then
-            MsgBox("Enter the Product to be Deleted")
+        If TextBox1.Text = "" Then
+            MsgBox("Enter the Product id to be Deleted")
         Else
             Con.Open()
             Dim query As String
-            query = "delete from Product_Table where Product_ID =" & Prodidtxt.Text & ""
+            query = "delete from Product_Table where Product_ID =" & TextBox1.Text & ""
             Dim cmd As SqlCommand
             cmd = New SqlCommand(query, Con)
             cmd.ExecuteNonQuery()
@@ -65,7 +67,7 @@ Public Class product
     End Sub
 
     Private Sub Searchbtn_Click(sender As Object, e As EventArgs) Handles Searchbtn.Click
-        Dim pid As Integer = Prodidtxt.Text
+        Dim pid As Integer = TextBox1.Text
         Dim command As New SqlCommand("select * from Product_Table where Product_ID ='" & pid & "'", Con)
         Dim sda As New SqlDataAdapter(command)
         Dim dt As New DataTable
@@ -118,11 +120,11 @@ Public Class product
 
     End Sub
     Private Sub clearbtn_Click(sender As Object, e As EventArgs) Handles clearbtn.Click
-        Prodidtxt.Text = ""
-        Prodnametxt.Text = ""
-        Prodqtytxt.Text = ""
-        Prodpricetxt.Text = ""
-        prodcatcb.Text = ""
+        TextBox1.Text = ""
+        TextBox2.Text = ""
+        TextBox3.Text = ""
+        TextBox4.Text = ""
+
     End Sub
 
     Private Sub ProductTableBindingSource_CurrentChanged(sender As Object, e As EventArgs) Handles ProductTableBindingSource.CurrentChanged
